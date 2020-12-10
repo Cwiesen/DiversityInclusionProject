@@ -1,0 +1,450 @@
+﻿StateID,StartYear,EndYear,PersonID,Name,Position ID,Position Name,Race,Gender,Party,Age
+1,"May 7, 1968","January 18, 1971",1000,Albert Brewer,1000,Governor,,Male,Democratic,40
+1,1/19/71,"January 15, 1979",1001,George Wallace,1001,Governor,,Male,Democratic,44
+1,"January 16, 1979","January 17, 1983",1002,Fob James,1000,Governor,,Male,Democratic,45
+1,"January 18, 1983","January 19, 1987",1001,George Wallace,1000,Governor,,Male,Democratic,52
+1,"January 20, 1987","April 22, 1993",1003,H. Guy Hunt,1000,Governor,,Male,Republican,54
+1,"April 22, 1993","January 16, 1995",1004,Jim Folsom Jr.,1000,Governor,,Male,Democratic,44
+1,"January 17, 1995","January 18, 1999",1002,Fob James,1000,Governor,,Male,Republican,61
+1,"January 19, 1999","January 20, 2003",1005,Don Siegelman,1000,Governor,,Male,Democratic,53
+1,"January 21, 2003","January 17, 2011",1006,Bob Riley,1000,Governor,,Male,Republican,59
+1,"January 18, 2011","April 10, 2017",1007,Robert J. Bentley,1000,Governor,,Male,Republican,68
+1,"April 10, 2017",present,1008,Kay Ivey,1000,Governor,,Female,Republican,73
+2,1/29/69,December 7 1970,1009,Keith Harvey Miller,1000,Governor,,Male,Republican,
+2,12/7/70,December 2 1974,1010,William Allen Egan,1000,Governor,,Male,Democratic,
+2,12/2/74,December 6 1982,1011,Jay Hammond,1000,Governor,,Male,Republican,
+2,12/6/82,December 1 1986,1012,Bill Sheffield,1000,Governor,,Male,Democratic,
+2,12/1/86,December 3 1990,1013,Steve Cowper,1000,Governor,,Male,Democratic,
+2,12/3/90,December 5 1994,1014,Wally Hickel,1000,Governor,,Male,Independent,
+2,12/5/94,December 2 2002,1015,Tony Knowles,1000,Governor,,Male,Democratic,
+2,12/2/02,December 4 2006,1016,Frank Murkowski,1000,Governor,,Male,Republican,
+2,12/4/06,July 26 2009,1017,Sarah Palin,1000,Governor,,Female,Republican,
+2,7/26/09,December 1 2014,1018,Sean Parnell,1000,Governor,,Male,Republican,
+2,12/1/14,December 3 2018,1019,Bill Walker,1000,Governor,,Male,Independent,
+2,12/3/18,Present,1020,Mike J. Dunleavy,1000,Governor,,Male,Republican,
+3,"January 2, 1967","January 6, 1975",1021,Jack Richard Williams,1000,Governor,,Male,Republican,
+3,"January 6, 1975","October 20, 1977",1022,Raúl Héctor Castro,1000,Governor,,Male,Democratic,
+3,"October 20, 1977","March 4, 1978",1023,Wesley Bolin,1000,Governor,,Male,Democratic,
+3,"March 4, 1978","January 5, 1987",1024,Bruce Babbitt,1000,Governor,,Male,Democratic,
+3,"January 5, 1987","April 4, 1988",1025,Evan Mecham,1000,Governor,,Male,Republican,
+3,"April 4, 1988","March 6, 1991",1026,Rose Mofford,1000,Governor,,Female,Democratic,
+3,"March 6, 1991","September 5, 1997",1027,Fife Symington,1000,Governor,,Male,Republican,
+3,"September 5, 1997","January 6, 2003",1028,Jane Dee Hull,1000,Governor,,Female,Republican,
+3,"January 6, 2003","January 21, 2009",1029,Janet Napolitano,1000,Governor,,Female,Democratic,
+3,"January 21, 2009","January 5, 2015",1030,Jan Brewer,1000,Governor,,Female,Republican,
+3,"January 5, 2015",present,1031,Doug Ducey,1000,Governor,,Male,Republican,
+4,"January 12, 1971","January 3, 1975",1032,Dale Bumpers,1000,Governor,,Male,Democratic,
+4,"January 3, 1975","January 14, 1975",1033,Bob C. Riley,1000,Governor,,Male,Democratic,
+4,"January 14, 1975","January 3, 1979",1034,David Pryor,1000,Governor,,Male,Democratic,
+4,"January 3, 1979","January 9, 1979",1035,Joe Purcell,1000,Governor,,Male,Democratic,
+4,"January 9, 1979","January 19, 1981",1036,Bill Clinton,1000,Governor,,Male,Democratic,
+4,"January 19, 1981","January 11, 1983",1037,Frank D. White,1000,Governor,,Male,Republican,
+4,"January 11, 1983","December 12, 1992",1036,Bill Clinton,1000,Governor,,Male,Democratic,
+4,"December 12, 1992","July 15, 1996",1038,Jim Guy Tucker,1000,Governor,,Male,Democratic,
+4,"July 15, 1996","January 9, 2007",1039,Mike Huckabee,1000,Governor,,Male,Republican,
+4,"January 9, 2007","January 13, 2015",1040,Mike Beebe,1000,Governor,,Male,Democratic,
+4,"January 13, 2015",present,1041,Asa Hutchinson,1000,Governor,,Male,Republican,
+5,"January 2, 1967
+","
+January 6, 1975
+",1042,Ronald Reagan,1000,Governor,,Male,Republican,
+5,"January 6, 1975
+","
+January 3, 1983
+",1043,Jerry Brown,1000,Governor,,Male,Democratic,
+5,"January 3, 1983
+","
+January 7, 1991
+",1044,George Deukmejian,1000,Governor,,Male,Republican,
+5,"January 7, 1991
+","
+January 4, 1999
+",1045,Pete Wilson,1000,Governor,,Male,Republican,
+5,"January 4, 1999
+","
+November 17, 2003
+",1046,Gray Davis,1000,Governor,,Male,Democratic,
+5,"November 17, 2003
+","
+January 3, 2011
+",1047,Arnold Schwarzenegger,1000,Governor,,Male,Republican,
+5,"January 3, 2011
+","
+January 7, 2019
+",1043,Jerry Brown,1000,Governor,,Male,Democratic,
+5,"January 7, 2019
+","
+present",1048,Gavin Newsom,1000,Governor,,Male,Democratic,
+6,"January 8, 1963
+","July 16, 1973",1049,John Arthur Love,1000,Governor,,Male,Republican,
+6,"July 16, 1973
+","January 14, 1975",1050,John D. Vanderhoof,1000,Governor,,Male,Republican,
+6,"January 14, 1975
+","January 13, 1987",1051,Richard Lamm,1000,Governor,,Male,Democratic,
+6,"January 13, 1987
+","January 12, 1999",1052,Roy Romer,1000,Governor,,Male,Democratic,
+6,"January 12, 1999
+","January 9, 2007",1053,Bill Owens,1000,Governor,,Male,Republican,
+6,"January 9, 2007
+","January 11, 2011",1054,Bill Ritter,1000,Governor,,Male,Democratic,
+6,"January 11, 2011
+","January 8, 2019",1055,John Hickenlooper,1000,Governor,,Male,Democratic,
+6,"January 8, 2019
+",present,1056,Jared Polis,1000,Governor,,Male,Democratic,
+7,"January 6, 1971
+","January 8, 1975",1057,Thomas Meskill,1000,Governor,,Male,Republican,
+7,"January 8, 1975
+","December 31, 1980",1058,Ella Grasso,1000,Governor,,Female,Democratic,
+7,"December 31, 1980
+","January 9, 1991",1059,William A. O'Neill,1000,Governor,,Male,Democratic,
+7,"January 9, 1991
+","January 4, 1995",1060,Lowell Weicker,1000,Governor,,Male,Independent,
+7,"January 4, 1995
+","July 1, 2004",1061,John G. Rowland,1000,Governor,,Male,Republican,
+7,"July 1, 2004
+","January 5, 2011",1062,Jodi Rell,1000,Governor,,Female,Republican,
+7,"January 5, 2011
+","January 9, 2019",1063,Dannel Malloy,1000,Governor,,Male,Democratic,
+7,"January 9, 2019
+",present,1064,Ned Lamont,1000,Governor,,Male,Democratic,
+8,"January 21, 1969
+","January 16, 1973",1065,Russell W. Peterson,1000,Governor,,Male,Republican,
+8,"January 16, 1973
+","January 18, 1977",1066,Sherman W. Tribbitt,1000,Governor,,Male,Democratic,
+8,"January 18, 1977
+","January 15, 1985",1067,Pete du Pont,1000,Governor,,Male,Republican,
+8,"January 15, 1985
+","December 31, 1992",1068,Mike Castle,1000,Governor,,Male,Republican,
+8,"December 31, 1992
+","January 19, 1993",1069,Dale E. Wolf,1000,Governor,,Male,Republican,
+8,"January 19, 1993
+","January 3, 2001",1070,Tom Carper,1000,Governor,,Male,Democratic,
+8,"January 3, 2001
+","January 20, 2009",1071,Ruth Ann Minner,1000,Governor,,Female,Democratic,
+8,"January 20, 2009
+","January 17, 2017",1072,Jack Markell,1000,Governor,,Male,Democratic,
+8,"January 17, 2017
+",present,1073,John Carney,1000,Governor,,Male,Democratic,
+9,January 5 1971,January 2 1979,1074,Reubin O'D. Askew,1000,Governor,,Male,Democratic,
+9,January 2 1979,January 3 1987,1075,D. Robert Graham,1000,Governor,,Male,Democratic,
+9,January 3 1987,January 6 1987,1076,Wayne Mixson,1000,Governor,,Male,Democratic,
+9,January 6 1987,January 8 1991,1077,Robert Martinez,1000,Governor,,Male,Republican,
+9,January 8 1991,December 12 1998,1078,"Lawton M. Chiles, Jr.",1000,Governor,,Male,Democratic,
+9,December 12 1998,January 5 1999,1079,"Kenneth H. ""Buddy"" MacKay, Jr.",1000,Governor,,Male,Democratic,
+9,January 5 1999,January 2 2007,1080,"John Ellis ""Jeb"" Bush",1000,Governor,,Male,Republican,
+9,January 2 2007,January 4 2011,1081,"Charles Joseph ""Charlie"" Crist, Jr.",1000,Governor,,Male,Republican,
+9,January 4 2011,January 8 2019,1082,Rick Scott,1000,Governor,,Male,Republican,
+9,January 8 2019,present,1083,Ron DeSantis,1000,Governor,,Male,Republican,
+10,"January 12, 1971
+","January 14, 1975",1084,Jimmy Carter,1000,Governor,,Male,Democratic,
+10,"January 14, 1975
+","January 11, 1983",1085,George Busbee,1000,Governor,,Male,Democratic,
+10,"January 11, 1983
+","January 14, 1991",1086,Joe Frank Harris,1000,Governor,,Male,Democratic,
+10,"January 14, 1991
+","January 11, 1999",1087,Zell Miller,1000,Governor,,Male,Democratic,
+10,"January 11, 1999
+","January 13, 2003",1088,Roy Barnes,1000,Governor,,Male,Democratic,
+10,"January 13, 2003
+","January 10, 2011",1089,Sonny Perdue,1000,Governor,,Male,Republican,
+10,"January 10, 2011
+","January 14, 2019",1090,Nathan Deal,1000,Governor,,Male,Republican,
+10,"January 14, 2019
+",present,1091,Brian Kemp,1000,Governor,,Male,Republican,
+11,"December 3, 1962","December 2, 1974",1092,John A. Burns,1000,Governor,,Male,Democratic,
+11,"December 2, 1974","December 1, 1986",1093,George Ariyoshi,1000,Governor,,Male,Democratic,
+11,"December 1, 1986","December 5, 1994",1094,John D. Waihee III,1000,Governor,,Male,Democratic,
+11,"December 5, 1994","December 2, 2002",1095,Ben Cayetano,1000,Governor,,Male,Democratic,
+11,"December 2, 2002","December 6, 2010",1096,Linda Lingle,1000,Governor,,Female,Republican,
+11,"December 6, 2010","December 1, 2014",1097,Neil Abercrombie,1000,Governor,,Male,Democratic,
+11,"December 1, 2014",present,1098,David Ige,1000,Governor,,Male,Democratic,
+12,"January 4, 1971","January 24, 1977",1099,Cecil D. Andrus,1000,Governor,,Male,Democratic,
+12,"January 24, 1977","January 5, 1987",1100,John V. Evans,1000,Governor,,Male,Democratic,
+12,"January 5, 1987","January 2, 1995",1099,Cecil D. Andrus,1000,Governor,,Male,Democratic,
+12,"January 2, 1995","January 4, 1999",1101,Phil Batt,1000,Governor,,Male,Republican,
+12,"January 4, 1999","May 26, 2006",1102,Dirk Kempthorne,1000,Governor,,Male,Republican,
+12,"May 26, 2006","January 1, 2007",1103,Jim Risch,1000,Governor,,Male,Republican,
+12,"January 1, 2007","January 6, 2019",1104,"C.L. ""Butch"" Otter",1000,Governor,,Male,Republican,
+12,"January 6, 2019",present,1105,Brad Little,1000,Governor,,Male,Republican,
+13,"January 13, 1969","January 8, 1973",1106,Richard Buell Ogilvie,1000,Governor,,Male,Republican,
+13,"January 8, 1973","January 10, 1977",1107,Daniel Walker,1000,Governor,,Male,Democratic,
+13,"January 10, 1977","January 14, 1991",1108,James R. Thompson,1000,Governor,,Male,Republican,
+13,"January 14, 1991","January 11, 1999",1109,Jim Edgar,1000,Governor,,Male,Republican,
+13,"January 11, 1999","January 13, 2003",1110,George H. Ryan,1000,Governor,,Male,Republican,
+13,"January 13, 2003","January 29, 2009",1111,Rod Blagojevich,1000,Governor,,Male,Democratic,
+13,"January 29, 2009","January 12, 2015",1112,Pat Quinn,1000,Governor,,Male,Democratic,
+13,"January 12, 2015","January 14, 2019",1113,Bruce Rauner,1000,Governor,,Male,Republican,
+13,"January 14, 2019",Incumbent,1114,J. B. Pritzker,1000,Governor,,Male,Democratic,
+14,"January 13, 1969
+","January 8, 1973",1115,Edgar Whitcomb,1000,Governor,,Male,Republican,
+14,"January 8, 1973
+","January 12, 1981",1116,Otis Bowen,1000,Governor,,Male,Republican,
+14,"January 12, 1981
+","January 9, 1989",1117,Robert D. Orr,1000,Governor,,Male,Republican,
+14,"January 9, 1989
+","January 13, 1997",1118,Evan Bayh,1000,Governor,,Male,Democratic,
+14,"January 13, 1997
+","September 13, 2003",1119,Frank O'Bannon,1000,Governor,,Male,Democratic,
+14,"September 13, 2003
+","January 10, 2005",1120,Joe E. Kernan,1000,Governor,,Male,Democratic,
+14,"January 10, 2005
+","January 14, 2013",1121,Mitch Daniels,1000,Governor,,Male,Republican,
+14,"January 14, 2013
+","January 9, 2017",1122,Mike Pence,1000,Governor,,Male,Republican,
+14,"January 9, 2017
+",present,1123,Eric Holcomb,1000,Governor,,Male,Republican,
+15,"January 16, 1969","January 14, 1983",1124,Robert D. Ray,1000,Governor,,Male,Republican,
+15,"January 14, 1983","January 15, 1999",1125,Terry E. Branstad,1000,Governor,,Male,Republican,
+15,"January 15, 1999","January 12, 2007",1126,Tom Vilsack,1000,Governor,,Male,Democratic,
+15,"January 12, 2007","January 14, 2011",1127,Chet Culver,1000,Governor,,Male,Democratic,
+15,"January 14, 2011","May 24, 2017",1125,Terry E. Branstad,1000,Governor,,Male,Republican,
+15,"May 24, 2017",present,1128,Kim Reynolds,1000,Governor,,Female,Republican,
+16,"January 9, 1967
+","January 13, 1975",1129,Robert Docking,1000,Governor,,Male,Democratic,
+16,"January 13, 1975
+","January 8, 1979",1130,Robert Frederick Bennett,1000,Governor,,Male,Republican,
+16,"January 8, 1979
+","January 12, 1987",1131,John W. Carlin,1000,Governor,,Male,Democratic,
+16,"January 12, 1987
+","January 14, 1991",1132,Mike Hayden,1000,Governor,,Male,Republican,
+16,"January 14, 1991
+","January 9, 1995",1133,Joan Finney,1000,Governor,,Female,Democratic,
+16,"January 9, 1995
+","January 13, 2003",1134,Bill Graves,1000,Governor,,Male,Republican,
+16,"January 13, 2003
+","April 28, 2009",1135,Kathleen Sebelius,1000,Governor,,Female,Democratic,
+16,"April 28, 2009
+","January 10, 2011",1136,Mark Parkinson,1000,Governor,,Male,Democratic,
+16,"January 10, 2011
+","January 31, 2018",1137,Sam Brownback,1000,Governor,,Male,Republican,
+16,"January 31, 2018
+","January 14, 2019",1138,Jeff Colyer,1000,Governor,,Male,Republican,
+16,"January 14, 2019
+",present,1139,Laura Kelly,1000,Governor,,Female,Democratic,
+17,"December 7, 1971
+","December 28, 1974",1140,Wendell Ford,1000,Governor,,Male,Democratic,
+17,"December 28, 1974
+","December 11, 1979",1141,Julian Carroll,1000,Governor,,Male,Democratic,
+17,"December 11, 1979
+","December 13, 1983",1142,John Y. Brown Jr.,1000,Governor,,Male,Democratic,
+17,"December 13, 1983
+","December 8, 1987",1143,Martha Layne Collins,1000,Governor,,Female,Democratic,
+17,"December 8, 1987
+","December 10, 1991",1144,Wallace Wilkinson,1000,Governor,,Male,Democratic,
+17,"December 10, 1991
+","December 12, 1995",1145,Brereton Jones,1000,Governor,,Male,Democratic,
+17,"December 12, 1995
+","December 9, 2003",1146,Paul E. Patton,1000,Governor,,Male,Democratic,
+17,"December 9, 2003
+","December 11, 2007",1147,Ernie Fletcher,1000,Governor,,Male,Republican,
+17,"December 11, 2007
+","December 8, 2015",1148,Steve Beshear,1000,Governor,,Male,Democratic,
+17,"December 8, 2015
+","December 10, 2019",1149,Matt Bevin,1000,Governor,,Male,Republican,
+17,"December 10, 2019
+",present,1150,Andy Beshear,1000,Governor,,Male,Democratic,
+18,"May 9, 1972","March 10, 1980",1151,Edwin Washington Edwards,1000,Governor,,Male,Democratic,
+18,"March 10, 1980","March 12, 1984",1152,David Conner (Dave) Treen,1000,Governor,,Male,Republican,
+18,"March 12, 1984","March 14, 1988",1151,Edwin Washington Edwards,1000,Governor,,Male,Democratic,
+18,"March 14, 1988",August 1991,1153,Charles Elson (Buddy) Roemer III,1000,Governor,,Male,Democratic,
+18,"January 13, 1992","January 8, 1996",1151,Edwin Washington Edwards,1000,Governor,,Male,Democratic,
+18,"January 8, 1996","January 12, 2004",1154,"Murphy James (Mike) Foster, Jr.",1000,Governor,,Male,Republican,
+18,"January 12, 2004","January 14, 2008",1155,Kathleen Babineaux Blanco,1000,Governor,,Female,Democratic,
+18,"January 14, 2008","January 11, 2016",1156,Bobby Jindal,1000,Governor,,Male,Republican,
+18,"January 11, 2016",present,1157,John Bel Edwards,1000,Governor,,Male,Democratic,
+19,"January 5, 1967","January 2, 1975",1158,Kenneth M. Curtis,1000,Governor,,Male,Democratic,
+19,"January 2, 1975","January 3, 1979",1159,James B. Longley,1000,Governor,,Male,Independent,
+19,"January 3, 1979","January 7, 1987",1160,Joseph Brennan,1000,Governor,,Male,Democratic,
+19,"January 7, 1987","January 5, 1995",1161,John McKernan,1000,Governor,,Male,Republican,
+19,"January 5, 1995","January 8, 2003",1162,Angus King,1000,Governor,,Male,Independent,
+19,"January 8, 2003","January 5, 2011",1163,John Baldacci,1000,Governor,,Male,Democratic,
+19,"January 5, 2011","January 2, 2019",1164,Paul LePage,1000,Governor,,Male,Republican,
+19,"January 2, 2019",present,1165,Janet Mills,1000,Governor,,Female,Democratic,
+20,"January 7, 1969
+","
+January 17, 1979",1166,Marvin Mandel,1000,Governor,,Male,Democratic,
+20,"June 4, 1977
+","
+January 15, 1979",1167,Blair Lee III,1000,Governor,,Male,Democratic,
+20,"January 17, 1979
+","
+January 20, 1987",1168,Harry Hughes,1000,Governor,,Male,Democratic,
+20,"January 20, 1987
+","
+January 18, 1995",1169,William Donald Schaefer,1000,Governor,,Male,Democratic,
+20,"January 18, 1995
+","
+January 15, 2003",1170,Parris N. Glendening,1000,Governor,,Male,Democratic,
+20,"January 15, 2003
+","
+January 17, 2007",1171,Robert (Bob) Ehrlich Jr.,1000,Governor,,Male,Republican,
+20,"January 17, 2007
+","
+January 21, 2015",1172,Martin O'Malley,1000,Governor,,Male,Democratic,
+20,"January 21, 2015
+",present,1173,Lawrence (Larry) Hogan Jr.,1000,Governor,,Male,Republican,
+21,"January 22, 1969 ","January 2, 1975",1174,Francis Sargent,1000,Governor,,Male,Republican,
+21,"January 2, 1975 ","January 4, 1979",1175,Michael Dukakis,1000,Governor,,Male,Democratic,
+21,"January 4, 1979 ","January 6, 1983",1176,Edward J. King,1000,Governor,,Male,Democratic,
+21,"January 6, 1983 ","January 3, 1991",1175,Michael Dukakis,1000,Governor,,Male,Democratic,
+21,"January 3, 1991 ","July 29, 1997",1177,Bill Weld,1000,Governor,,Male,Republican,
+21,"July 29, 1997 ","April 10, 2001",1178,Paul Cellucci,1000,Governor,,Male,Republican,
+21,"April 10, 2001 ","January 2, 2003",1179,Jane Swift,1000,Governor,,Female,Republican,
+21,"January 2, 2003 ","January 4, 2007",1180,Mitt Romney,1000,Governor,,Male,Republican,
+21,"January 4, 2007 ","January 8, 2015",1181,Deval Patrick,1000,Governor,,Male,Democratic,
+21,"January 8, 2015 ",present,1182,Charlie Baker,1000,Governor,,Male,Republican,
+22,"January 22, 1969","January 1, 1983",1183,William Milliken,1000,Governor,,Male,Republican,
+22,"January 1, 1983","January 1, 1991",1184,James Blanchard,1000,Governor,,Male,Democratic,
+22,"January 1, 1991","January 1, 2003",1185,John Engler,1000,Governor,,Male,Republican,
+22,"January 1, 2003","January 1, 2011",1186,Jennifer Granholm,1000,Governor,,Female,Democratic,
+22,"January 1, 2011","January 1, 2019",1187,Rick Snyder,1000,Governor,,Male,Republican,
+22,"January 1, 2019",Present,1188,Gretchen Whitmer,1000,Governor,,Female,Democratic,
+23,"January 4, 1971","December 29, 1976",1189,Wendell R. Anderson,1000,Governor,,Male,Democratic,
+23,"December 29, 1976","January 4, 1979",1190,Rudy Perpich,1000,Governor,,Male,Democratic,
+23,"January 4, 1979","January 3, 1983",1191,Al Quie,1000,Governor,,Male,Republican,
+23,"January 3, 1983","January 7, 1991",1190,Rudy Perpich,1000,Governor,,Male,Democratic,
+23,"January 7, 1991","January 4, 1999",1192,Arne H. Carlson,1000,Governor,,Male,Republican,
+23,"January 4, 1999","January 6, 2003",1193,Jesse Ventura,1000,Governor,,Male,Independent,
+23,"January 6, 2003","January 3, 2011",1194,Tim Pawlenty,1000,Governor,,Male,Republican,
+23,"January 3, 2011","January 7, 2019",1195,Mark Dayton,1000,Governor,,Male,Democratic,
+23,"January 7, 2019",present,1196,Tim Walz,1000,Governor,,Male,Democratic,
+24,"January 18, 1972","January 20, 1976",1197,William Waller,1000,Governor,,Male,Democratic,
+24,"January 20, 1976","January 22, 1980",1198,Cliff Finch,1000,Governor,,Male,Democratic,
+24,"January 22, 1980","January 10, 1984",1199,William Winter,1000,Governor,,Male,Democratic,
+24,"January 10, 1984","January 12, 1988",1200,William Allain,1000,Governor,,Male,Democratic,
+24,"January 12, 1988","January 14, 1992",1201,Ray Mabus,1000,Governor,,Male,Democratic,
+24,"January 14, 1992","January 11, 2000",1202,Kirk Fordice,1000,Governor,,Male,Republican,
+24,"January 11, 2000","January 13, 2004",1203,Ronnie Musgrove,1000,Governor,,Male,Democratic,
+24,"January 13, 2004","January 10, 2012",1204,Haley Barbour,1000,Governor,,Male,Republican,
+24,"January 10, 2012","January 14, 2020",1205,Phil Bryant,1000,Governor,,Male,Republican,
+24,"January 14, 2020",present,1206,Tate Reeves,1000,Governor,,Male,Republican,
+25,"January 11, 1965","January 8, 1973",1207,Warren E. Hearnes,1000,Governor,,Male,Democratic,
+25,"January 8, 1973","January 10, 1977",1208,Kit Bond,1000,Governor,,Male,Republican,
+25,"January 10, 1977","January 12, 1981",1209,Joseph P. Teasdale,1000,Governor,,Male,Democratic,
+25,"January 12, 1981","January 14, 1985",1208,Kit Bond,1000,Governor,,Male,Republican,
+25,"January 14, 1985","January 11, 1993",1210,John Ashcroft,1000,Governor,,Male,Republican,
+25,"January 11, 1993","October 16, 2000",1211,Mel Carnahan,1000,Governor,,Male,Democratic,
+25,"October 16, 2000","January 8, 2001",1212,Roger B. Wilson,1000,Governor,,Male,Democratic,
+25,"January 8, 2001","January 10, 2005",1213,Bob Holden,1000,Governor,,Male,Democratic,
+25,"January 10, 2005","January 12, 2009",1214,Matt Blunt,1000,Governor,,Male,Republican,
+25,"January 12, 2009","January 9, 2017",1215,Jay Nixon,1000,Governor,,Male,Democratic,
+25,"January 9, 2017","June 1, 2018",1216,Eric Greitens,1000,Governor,,Male,Republican,
+25,"June 1, 2018",present,1217,Mike Parson,1000,Governor,,Male,Republican,
+26,"January 6, 1969","January 1, 1973",1218,Forrest H. Anderson,1000,Governor,,Male,Democratic,
+26,"January 1, 1973","January 5, 1981",1219,Thomas Lee Judge,1000,Governor,,Male,Democratic,
+26,"January 5, 1981","January 2, 1989",1220,Ted Schwinden,1000,Governor,,Male,Democratic,
+26,"January 2, 1989","January 4, 1993",1221,Stan Stephens,1000,Governor,,Male,Republican,
+26,"January 4, 1993","January 1, 2001",1222,Marc Racicot,1000,Governor,,Male,Republican,
+26,"January 1, 2001","January 3, 2005",1223,Judy Martz,1000,Governor,,Female,Republican,
+26,"January 3, 2005","January 7, 2013",1224,Brian Schweitzer,1000,Governor,,Male,Democratic,
+26,"January 7, 2013",present,1225,Steve Bullock,1000,Governor,,Male,Democratic,
+27,"January 7, 1971","January 4, 1979",1226,"J. James Exon
+",1000,Governor,,Male,Democratic,
+27,"January 4, 1979","January 6, 1983",1227,"Charles Thone
+",1000,Governor,,Male,Republican,
+27,"January 6, 1983","January 9, 1987",1228,"J. Robert Kerrey
+",1000,Governor,,Male,Democratic,
+27,"January 9, 1987","January 9, 1991",1229,"Kay A. Orr
+",1000,Governor,,Female,Republican,
+27,"January 9, 1991","January 7, 1999",1230,"Ben Nelson
+",1000,Governor,,Male,Democratic,
+27,"January 7, 1999","January 20, 2005",1231,"Mike Johanns
+",1000,Governor,,Male,Republican,
+27,"January 20, 2005","January 8, 2015",1232,"Dave Heineman
+",1000,Governor,,Male,Republican,
+27,"January 8, 2015",Present,1233,"Pete Ricketts
+",1000,Governor,,Male,Republican,
+28,"January 4, 1971
+","January 1, 1979",1234,Mike O'Callaghan,1000,Governor,,Male,Democratic,
+28,"January 1, 1979
+","January 3, 1983",1235,Robert List,1000,Governor,,Male,Republican,
+28,"January 3, 1983
+","January 3, 1989",1236,Richard Bryan,1000,Governor,,Male,Democratic,
+28,"January 3, 1989
+","January 4, 1999",1237,Bob Miller,1000,Governor,,Male,Democratic,
+28,"January 4, 1999
+","January 1, 2007",1238,Kenny Guinn,1000,Governor,,Male,Republican,
+28,"January 1, 2007
+","January 3, 2011",1239,Jim Gibbons,1000,Governor,,Male,Republican,
+28,"January 3, 2011
+","January 7, 2019",1240,Brian Sandoval,1000,Governor,,Male,Republican,
+28,"January 7, 2019 ",present,1241,Steve Sisolak,1000,Governor,,Male,Democratic,
+29,"January 2, 1969","January 4, 1973",1242,Walter R. Peterson Jr.,1000,Governor,,Male,Republican,
+29,"January 4, 1973","January 4, 1979",1243,Meldrim Thomson Jr.,1000,Governor,,Male,Republican,
+29,"January 4, 1979","December 29, 1982",1244,Hugh J. Gallen,1000,Governor,,Male,Democratic,
+29,"December 29, 1982","January 6, 1983",1245,Vesta M. Roy,1000,Governor,,Female,Republican,
+29,"January 6, 1983","January 4, 1989",1246,John H. Sununu,1000,Governor,,Male,Republican,
+29,"January 4, 1989","January 2, 1993",1247,Judd Gregg,1000,Governor,,Male,Republican,
+29,"January 2, 1993","January 7, 1993",1248,Ralph D. Hough,1000,Governor,,Male,Republican,
+29,"January 7, 1993","January 9, 1997",1249,Steve Merrill,1000,Governor,,Male,Republican,
+29,"January 9, 1997","January 9, 2003",1250,Jeanne Shaheen,1000,Governor,,Female,Democratic,
+29,"January 9, 2003","January 6, 2005",1251,Craig Benson,1000,Governor,,Male,Republican,
+29,"January 6, 2005","January 3, 2013",1252,John Lynch,1000,Governor,,Male,Democratic,
+29,"January 3, 2013","January 2, 2017",1253,Maggie Hassan,1000,Governor,,Female,Democratic,
+29,"January 3, 2017","January 5, 2017",1254,Chuck Morse,1000,Governor,,Male,Republican,
+29,"January 5, 2017",present,1255,Chris Sununu,1000,Governor,,Male,Republican,
+30,"January 20, 1970
+","January 15, 1974",1256,William T. Cahill,1000,Governor,,Male,Republican,
+30,"January 15, 1974
+","January 19, 1982",1257,Brendan Byrne,1000,Governor,,Male,Democratic,
+30,"January 19, 1982
+","January 16, 1990",1258,Thomas Kean,1000,Governor,,Male,Republican,
+30,"January 16, 1990
+","January 18, 1994",1259,James Florio,1000,Governor,,Male,Democratic,
+30,"January 18, 1994
+","January 31, 2001",1260,Christine Todd Whitman,1000,Governor,,Female,Republican,
+30,"January 31, 2001
+","January 8, 2002",1261,Donald DiFrancesco,1000,Governor,,Male,Republican,
+30,"January 8, 2002
+","January 8, 2002",1262,John Farmer Jr.,1000,Governor,,Male,Republican,
+30,"January 8, 2002
+","January 12, 2002",1263,John O. Bennett,1000,Governor,,Male,Republican,
+30,"January 12, 2002
+","January 15, 2002",1264,Richard Codey,1000,Governor,,Male,Democratic,
+30,"January 15, 2002
+","November 15, 2004",1265,Jim McGreevey,1000,Governor,,Male,Democratic,
+30,"November 15, 2004
+","January 17, 2006",1264,Richard Codey,1000,Governor,,Male,Democratic,
+30,"January 17, 2006
+","January 19, 2010",1266,Jon Corzine,1000,Governor,,Male,Democratic,
+30,"January 19, 2010
+","January 16, 2018",1267,Chris Christie,1000,Governor,,Male,Republican,
+30,"January 16, 2018
+",Present,1268,Phil Murphy,1000,Governor,,Male,Democratic,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,
+,,,,,1000,Governor,,,,

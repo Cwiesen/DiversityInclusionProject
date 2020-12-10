@@ -17,4 +17,8 @@ public class BackendService {
     public Integer addCity() {
         return dao.addCity();
     }
+
+    public void readFile() {
+        dao.readFile();
+    }
 }
