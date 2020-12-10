@@ -1,4 +1,4 @@
-package Daos;
+package com.talentpath.DiversityBackend.daos;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
@@ -8,18 +8,23 @@ import org.springframework.stereotype.Component;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 @Component
 @Profile("production")
-public class PostgresDataDao {
+public class PostgresDao implements BackendDao {
 
     @Autowired
     JdbcTemplate template;
 
-    public void buildTables() {
-        template.query("INSERT INTO public.states(name) " +
-                "VALUES ('Alaska');", new IdMapper());
+    @Override
+    public int addCity() {
+       List<Integer> idList = template.query("INSERT INTO public.states(name) " +
+                "VALUES ('Florida') " + " returning \"id\"", new IdMapper());
+
+       return idList.get(0);
     }
+
 
     class IdMapper implements RowMapper<Integer> {
 
@@ -27,5 +32,7 @@ public class PostgresDataDao {
         public Integer mapRow(ResultSet resultSet, int i) throws SQLException {
             return resultSet.getInt("id");
         }
+
+
     }
 }

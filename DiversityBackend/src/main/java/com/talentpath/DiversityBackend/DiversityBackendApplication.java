@@ -1,13 +1,13 @@
-package com.talentpath.DiversityDataReader;
+package com.talentpath.DiversityBackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DiversityDataReaderApplication {
+public class DiversityBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DiversityDataReaderApplication.class, args);
+		SpringApplication.run(DiversityBackendApplication.class, args);
 	}
 
 }
