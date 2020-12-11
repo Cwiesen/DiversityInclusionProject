@@ -49,5 +49,17 @@ class PostgresDaoTest {
         assertEquals(4,demographics.size());
     }
 
+    @Test
+    void getPeopleByYear() {
+        List<Person> people = dao.getPeopleByYear(1996);
+        assertEquals(1,people.size());
+    }
+
+    @Test
+    void getPersonByRole() {
+        List<Person> people = dao.getPeopleByRole("Senator");
+        assertEquals(1,people.size());
+    }
+
 
 }

@@ -34,10 +34,10 @@ public class PostgresDao implements BackendDao {
     @Override
     public Integer addDemographic(Demographic demographic) {
         List<Integer> idList = template.query("INSERT INTO public.\"Demographics\"(\n" +
-                "\t year, city, state, \"percentFemale\", \"percentWhite\", \n" +
-                "\t\"percentAfricanAmerican\", \"percentAsian\", \"percentHispanic\", \n" +
-                "\t\"percentNativeAmerican\", age0_17, age18_24, age25_44, age45_64, \"age65Plus\", population)\n" +
-                "\tVALUES ('"+demographic.getYear()+"', '"+demographic.getCity() +"'" +
+                        "\t year, city, state, \"percentFemale\", \"percentWhite\", \n" +
+                        "\t\"percentAfricanAmerican\", \"percentAsian\", \"percentHispanic\", \n" +
+                        "\t\"percentNativeAmerican\", age0_17, age18_24, age25_44, age45_64, \"age65Plus\", population)\n" +
+                        "\tVALUES ('"+demographic.getYear()+"', '"+demographic.getCity() +"'" +
                         ", '"+demographic.getState()+"', '"+demographic.getPercentFemale()+"', " +
                         "'"+demographic.getPercentWhite()+"', '"+demographic.getPercentAfricanAmerican()+
                         "', '"+demographic.getPercentAsian()+"', " +
@@ -58,6 +58,51 @@ public class PostgresDao implements BackendDao {
     @Override
     public List<Demographic> getAllDemographics() {
         return template.query("select * from \"Demographics\";", new DemographicMapper());
+    }
+
+    @Override
+    public List<Person> getPeopleByYear(Integer year) {
+        return template.query("Select * from \"Persons\"\n" +
+                "\n" +
+                "Where "+ year +" BETWEEN \"startYear\" AND \"endYear\";",new PersonMapper());
+    }
+
+    @Override
+    public List<Person> getPeopleByRole(String role) {
+        return template.query("Select * from \"Persons\"\n" +
+                "\n" +
+                "Where \"position\" = '"+role+"';",new PersonMapper());
+    }
+
+    @Override
+    public List<Person> getPeopleByRoleAndYear(String role, Integer year) {
+        return template.query("Select * from \"Persons\"\n" +
+                "\n" +
+                "Where "+year+" BETWEEN \"startYear\" AND \"endYear\"\n" +
+                "\n" +
+                "AND\n" +
+                "\n" +
+                "\"position\" = '"+role+"';",new PersonMapper());
+    }
+
+    @Override
+    public List<Person> getPeopleByRoleYearAndCity(String role, String year, String city, String state) {
+        return null;
+    }
+
+    @Override
+    public List<Person> getPeopleByCity(String city, String state) {
+        return null;
+    }
+
+    @Override
+    public List<Person> getPeopleByState(String state) {
+        return null;
+    }
+
+    @Override
+    public List<Person> getPeopleByStateAndYear(String state, String year) {
+        return null;
     }
 
 
