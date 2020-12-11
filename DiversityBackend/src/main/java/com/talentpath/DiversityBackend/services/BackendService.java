@@ -20,10 +20,6 @@ public class BackendService {
         this.dao = dao;
     }
 
-    public Integer addCity() {
-        return dao.addCity();
-    }
-
     public void readFile() {
         List<String> fileRows = new ArrayList<>();
         try {
@@ -41,4 +37,5 @@ public class BackendService {
             String[] currentLine = line.split(",");
             System.out.println(currentLine.length);
         }
-    }}
+    }
+}

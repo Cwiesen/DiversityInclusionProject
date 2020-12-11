@@ -16,7 +16,8 @@ public class DataController {
 
     @PostMapping("/begin")
     public Integer beginGame() {
-        return service.addCity();
+
+        return 1;
     }
 
     @GetMapping("/readFile")
