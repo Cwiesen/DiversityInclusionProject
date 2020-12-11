@@ -125,7 +125,7 @@ public class PostgresDao implements BackendDao {
             toReturn.setAge(resultSet.getInt("age"));
             toReturn.setCityName(resultSet.getString("city"));
             toReturn.setStateName(resultSet.getString("state"));
-            toReturn.setGender(resultSet.getString("gender").charAt(0));
+            toReturn.setGender(resultSet.getString("gender"));
             toReturn.setEthnicity(resultSet.getString("ethnicity"));
             toReturn.setParty(resultSet.getString("party"));
             toReturn.setPosition(resultSet.getString("position"));

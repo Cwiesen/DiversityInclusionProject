@@ -1,6 +1,7 @@
 package com.talentpath.DiversityBackend.services;
 
 import com.talentpath.DiversityBackend.daos.BackendDao;
+import com.talentpath.DiversityBackend.models.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -37,5 +38,9 @@ public class BackendService {
             String[] currentLine = line.split(",");
             System.out.println(currentLine.length);
         }
+    }
+
+    public List<Person> getAllPeople() {
+        return dao.getAllPeople();
     }
 }

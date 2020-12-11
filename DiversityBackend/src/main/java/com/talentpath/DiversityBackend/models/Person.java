@@ -5,7 +5,7 @@ public class Person {
     private String state;
     private String city;
     private Integer age;
-    private Character gender;
+    private String gender;
     private String ethnicity;
     private String party;
     private String position;
@@ -15,7 +15,7 @@ public class Person {
     public Person() {
     }
 
-    public Person(String stateName, String cityName, Integer age, Character gender, String ethnicity, String party, String position, Integer startYear, Integer endYear) {
+    public Person(String stateName, String cityName, Integer age, String gender, String ethnicity, String party, String position, Integer startYear, Integer endYear) {
         this.state = stateName;
         this.city = cityName;
         this.age = age;
@@ -27,7 +27,7 @@ public class Person {
         this.endYear = endYear;
     }
 
-    public Person(String stateName, String cityName, Integer age, Character gender,
+    public Person(String stateName, String cityName, Integer age, String gender,
                   String party, String position, Integer startYear, Integer endYear) {
         this.state = stateName;
         this.city = cityName;
@@ -71,11 +71,11 @@ public class Person {
         this.age = age;
     }
 
-    public Character getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(Character gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 

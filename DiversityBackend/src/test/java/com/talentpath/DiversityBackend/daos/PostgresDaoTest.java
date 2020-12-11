@@ -23,8 +23,8 @@ class PostgresDaoTest {
 
     @Test
     void addPerson() {
-        Person person = new Person("Richmond","Virginia",
-                26,'M',"Democratic","leader",1,2);
+        Person person = new Person("Boston","Masechussets",
+                26,"M","Democratic","leader",1,2);
         dao.addPerson(person);
     }
 
