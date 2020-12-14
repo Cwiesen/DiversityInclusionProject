@@ -31,4 +31,10 @@ public class DataController {
     public void readFile() {
         service.readFile();
     }
+
+    @PostMapping("/addPersonTest")
+    public Integer addPerson() {
+        service.addPerson();
+        return 2;
+    }
 }

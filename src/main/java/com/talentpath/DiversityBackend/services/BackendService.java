@@ -40,6 +40,11 @@ public class BackendService {
         }
     }
 
+    public void addPerson() {
+        Person toAdd = new Person("California", "Houston", 22, "Male", "White", "Republican", "Senator", 1950, 1960);
+        dao.addPerson(toAdd);
+    }
+
     public List<Person> getAllPeople() {
         return dao.getAllPeople();
     }
