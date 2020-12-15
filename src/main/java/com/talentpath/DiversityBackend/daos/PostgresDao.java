@@ -21,13 +21,12 @@ public class PostgresDao implements BackendDao {
 
     @Override
     public Integer addPerson(Person person) {
-        List<Integer> idList = template.query("INSERT INTO public.\"Persons\"(\n" +
-                "\t state, city, age, gender, ethnicity, party, \"position\", \"startYear\", \"endYear\")\n" +
-                "\tVALUES ('"+person.getStateName()+"', '"+person.getCityName()+"', " +
-                "'"+person.getAge()+"', '"+person.getGender()+"', '"+person.getEthnicity()+"" +
-                "', '"+person.getParty()+"', '"+person.getPosition()+"" +
-                "', "+person.getStartYear()+", "+person.getEndYear()+"" +
-                ") " + "returning \"id\";",new IdMapper());
+        List<Integer> idList = template.query("INSERT INTO public.\"Persons\" (state, city, age, gender, ethnicity, " +
+                "party, \"position\", \"startYear\", \"endYear\", name, \"personId\") " +
+                "VALUES ('" + person.getStateName() + "', '" + person.getCityName() + "', " + person.getAge()+ ", '" +
+                person.getGender() + "', '" + person.getEthnicity() + "', '" + person.getParty() + "', '" + person.getPosition() +
+                "', " + person.getStartYear() + ", " + person.getEndYear() + ", '" + person.getName() + "', " + person.getPersonId() +
+                ") returning \"id\";", new IdMapper());
         return idList.get(0);
     }
 
@@ -121,7 +120,7 @@ public class PostgresDao implements BackendDao {
         @Override
         public Person mapRow(ResultSet resultSet, int i) throws SQLException {
             Person toReturn = new Person();
-            toReturn.setId(resultSet.getInt("id"));
+            toReturn.setPersonId(resultSet.getInt("id"));
             toReturn.setAge(resultSet.getInt("age"));
             toReturn.setCityName(resultSet.getString("city"));
             toReturn.setStateName(resultSet.getString("state"));

@@ -1,9 +1,10 @@
 package com.talentpath.DiversityBackend.models;
 
 public class Person {
-    private Integer id;
+    private Integer personId;
     private String state;
     private String city;
+    private String name;
     private Integer age;
     private String gender;
     private String ethnicity;
@@ -15,9 +16,11 @@ public class Person {
     public Person() {
     }
 
-    public Person(String stateName, String cityName, Integer age, String gender, String ethnicity, String party, String position, Integer startYear, Integer endYear) {
+    public Person(Integer personId, String stateName, String cityName, String name, Integer age, String gender, String ethnicity, String party, String position, Integer startYear, Integer endYear) {
+        this.personId = personId;
         this.state = stateName;
         this.city = cityName;
+        this.name = name;
         this.age = age;
         this.gender = gender;
         this.ethnicity = ethnicity;
@@ -39,12 +42,12 @@ public class Person {
         this.endYear = endYear;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getPersonId() {
+        return personId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setPersonId(Integer personId) {
+        this.personId = personId;
     }
 
     public String getStateName() {
@@ -61,6 +64,14 @@ public class Person {
 
     public void setCityName(String cityName) {
         this.city = cityName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Integer getAge() {

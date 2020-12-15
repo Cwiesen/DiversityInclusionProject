@@ -23,7 +23,7 @@ public class BackendService {
 
     public List<Integer> readFile() {
         List<String> fileRows = new ArrayList<>();
-        int rowSize = 8;
+        int rowSize = 10;
         try {
             File fileData = new File("Governors.csv");
             Scanner myReader = new Scanner(fileData);
@@ -52,12 +52,35 @@ public class BackendService {
         Person newPerson = new Person();
         String state = convertState(toAdd[0]);
 
+        newPerson.setPersonId(Integer.parseInt(toAdd[3]));
         newPerson.setStateName(state);
+        newPerson.setName(toAdd[4]);
+        newPerson.setAge(Integer.parseInt(toAdd[9]));
+        newPerson.setGender(toAdd[7]);
+        newPerson.setEthnicity(toAdd[6]);
+        newPerson.setParty(toAdd[8]);
+        newPerson.setPosition("Governor");
+        newPerson.setStartYear(convertDate(toAdd[1]));
+        newPerson.setEndYear(2021);
+        if (!toAdd[2].isEmpty()) {
+            newPerson.setEndYear(convertDate(toAdd[2]));
+        }
+        return newPerson;
+    }
+
+    public Person buildMayor(String[] toAdd) {
+        Person newPerson = new Person();
+        String state = convertState(toAdd[1]);
+        String city = convertCity(toAdd[0]);
+
+        newPerson.setStateName(state);
+        newPerson.setCityName(city);
+        newPerson.setName(toAdd[2]);
         newPerson.setAge(Integer.parseInt(toAdd[8]));
         newPerson.setGender(toAdd[6]);
         newPerson.setEthnicity(toAdd[5]);
         newPerson.setParty(toAdd[7]);
-        newPerson.setPosition("Governor");
+        newPerson.setPosition("Mayor");
         newPerson.setStartYear(convertDate(toAdd[1]));
         newPerson.setEndYear(-1);
         if (!toAdd[2].isEmpty()) {
@@ -67,7 +90,7 @@ public class BackendService {
     }
 
     public void addPerson() {
-        Person toAdd = new Person("California", "Houston", 22, "Male", "White", "Republican", "Senator", 1950, 1960);
+        Person toAdd = new Person(1000, "California", "Houston", "Test Person", 22, "Male", "White", "Republican", "Senator", 1950, 1960);
         dao.addPerson(toAdd);
     }
 
@@ -77,7 +100,11 @@ public class BackendService {
 
     private Integer convertDate(String stringDate) {
         String[] splitDate = stringDate.split("/");
-        return Integer.parseInt(splitDate[2]);
+        if (Integer.parseInt(splitDate[2]) > 21 ) {
+            return Integer.parseInt("19" + splitDate[2]);
+        } else {
+            return Integer.parseInt("20" + splitDate[2]);
+        }
     }
 
     private String convertState(String stateId) {
@@ -238,5 +265,75 @@ public class BackendService {
                 break;
         }
         return state;
+    }
+
+    private String convertCity(String cityId) {
+        String city;
+        switch (cityId) {
+            case "1":
+                city = "New York City";
+                break;
+            case "2":
+                city = "Los Angeles";
+                break;
+            case "3":
+                city = "Chicago";
+                break;
+            case "4":
+                city = "Houston";
+                break;
+            case "5":
+                city = "Phoenix";
+                break;
+            case "6":
+                city = "Philadelphia";
+                break;
+            case "7":
+                city = "San Antonio";
+                break;
+            case "8":
+                city = "San Diego";
+                break;
+            case "9":
+                city = "Dallas";
+                break;
+            case "10":
+                city = "San Jose";
+                break;
+            case "11":
+                city = "Austin";
+                break;
+            case "12":
+                city = "Jacksonville";
+                break;
+            case "13":
+                city = "Fort Worth";
+                break;
+            case "14":
+                city = "Columbus";
+                break;
+            case "15":
+                city = "Charlotte";
+                break;
+            case "16":
+                city = "San Francisco";
+                break;
+            case "17":
+                city = "Indianapolis";
+                break;
+            case "18":
+                city = "Seattle";
+                break;
+            case "19":
+                city = "Denver";
+                break;
+            case "20":
+                city = "Boston";
+                break;
+            default:
+                city = "";
+                break;
+        }
+        return city;
     }
 }

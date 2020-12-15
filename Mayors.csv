@@ -1,0 +1,191 @@
+﻿City ID,State ID,Name,Position Name,StartYear,EndYear,Race,Gender,Party,Age (at Start of Term)
+1,32,Bill de Blasio,Mayor,1/1/14,,Two or More Races,Male,Democratic,53
+1,32,Michael Bloomberg,Mayor,1/1/02,12/31/13,White,Male,Republican,60
+1,32,Rudy Giuliani,Mayor,1/1/94,12/31/01,White,Male,Republican,50
+1,32,David Dinkins,Mayor,1/1/90,12/31/93,African American,Male,Democratic,63
+1,32,Ed Koch,Mayor,1/1/78,12/31/89,White,Male,Democratic,54
+1,32,Abraham Beame,Mayor,1/1/74,12/31/77,White,Male,Democratic,68
+1,32,John Lindsay,Mayor,1/1/66,12/31/73,White,Male,None,45
+2,5,Eric Garcetti,Mayor,7/1/13,,Two or More Races,Male,Democratic,42
+2,5,Antonio Villaraigosa,Mayor,7/1/05,7/1/13,Hispanic,Male,Democratic,52
+2,5,James Hahn,Mayor,7/1/01,7/1/05,White,Male,Democratic,51
+2,5,Richard Riordan,Mayor,7/1/93,7/1/01,White,Male,Republican,63
+2,5,Thomas Bradley,Mayor,7/1/73,7/1/93,African American,Male,Democratic,56
+2,5,Samuel Yorty,Mayor,7/1/61,7/1/73,White,Male,Democratic,52
+3,13,Lori Lightfoot,Mayor,5/20/19,,African American,Female,Democratic,57
+3,13,Rahm Emanuel,Mayor,5/16/11,5/20/19,White,Male,Democratic,52
+3,13,Richard Daley,Mayor,4/24/89,5/16/11,White,Male,Democratic,47
+3,13,Eugene Sawyer,Mayor,12/2/87,4/24/89,African American,Male,Democratic,53
+3,13,David Orr,Mayor,11/25/87,12/2/87,White,Male,Democratic,43
+3,13,Harold Washington,Mayor,4/29/83,11/25/87,African American,Male,Democratic,61
+3,13,Jane Byrne,Mayor,4/16/79,4/29/83,White,Female,Democratic,46
+3,13,Michael Anthony Bilandic,Mayor,12/20/76,4/16/79,White,Male,Democratic,53
+3,13,Richard J. Daley,Mayor,4/20/55,12/20/76,White,Male,Democratic,53
+4,43,Sylvester Turner,Mayor,1/2/16,,African American,Male,Democratic,62
+4,43,Annise Parker,Mayor,1/2/10,1/2/16,White,Female,Democratic,54
+4,43,Bill White,Mayor,1/2/04,1/2/10,White,Male,Democratic,50
+4,43,Lee P. Brown,Mayor,1/2/98,1/2/04,African American,Male,Democratic,61
+4,43,Bob Lanier,Mayor,1/2/92,1/2/98,White,Male,Democratic,67
+4,43,Kathy Whitmire,Mayor,1/2/82,1/2/92,White,Female,Democratic,36
+4,43,Jim McConn,Mayor,1/2/78,1/2/82,White,Male,Republican,50
+4,43,Fred Hofheinz,Mayor,1/2/74,1/2/78,White,Male,Democratic,36
+4,43,Louie Welch,Mayor,1/2/64,1/2/74,White,Male,Republican,46
+5,3,Kate Gallego,Mayor,3/21/19,,White,Female,Democratic,38
+5,3,Thelda Williams,Mayor,5/29/18,3/21/19,White,Female,Republican,77
+5,3,Greg Stanton,Mayor,1/3/12,5/29/18,Two or More Races,Male,Democratic,42
+5,3,Thelda Williams,Mayor,12/31/11,1/3/12,White,Female,Republican,70
+5,3,Phil Gordon,Mayor,1/2/04,1/3/12,Two or More Races,Male,Democratic,53
+5,3,Skip Rimsza,Mayor,11/4/94,1/2/04,White,Male,Republican,39
+5,3,Thelda Williams,Mayor,3/29/94,11/4/94,White,Female,Republican,53
+5,3,John B. Nelson,Mayor,3/17/94,3/29/94,White,Male,Republican,58
+5,3,Paul Johnson,Mayor,2/16/90,3/16/94,White,Male,Democratic,31
+5,3,Terry Goddard,Mayor,1/2/84,2/16/90,White,Male,Democratic,37
+5,3,Margaret Hance,Mayor,1/2/76,1/2/84,White,Female,Republican,53
+5,3,Timothy A. Barrow,Mayor,1/2/74,1/2/76,White,Male,Republican,40
+5,3,John D. Driggs,Mayor,27031,1/2/74,White,Male,None,43
+6,38,Jim Kenney,Mayor,1/4/16,,White,Male,Democratic,58
+6,38,Michael Nutter,Mayor,1/7/08,1/4/16,African American,Male,Democratic,51
+6,38,John F Street,Mayor,1/3/00,1/7/08,African American,Male,Democratic,57
+6,38,Ed Rendell,Mayor,1/6/92,1/3/00,White,Male,Democratic,48
+6,38,Wilson Goode,Mayor,1/2/84,1/6/92,African American,Male,Democratic,46
+6,38,William J. Green III,Mayor,1/7/80,1/2/84,White,Male,Democratic,42
+6,38,Frank Rizzo,Mayor,1/3/72,1/7/80,White,Male,Democratic,52
+6,38,James Hugh Joseph Tate,Mayor,2/12/62,1/3/72,White,Male,Democratic,52
+7,43,Ron Nirenberg,Mayor,6/21/17,,Two or More Races,Male,Independent,40
+7,43,Ivy Taylor,Mayor,7/22/14,6/21/17,African American,Female,Democratic,44
+7,43,Julian Castro,Mayor,6/1/09,7/22/14,Hispanic,Male,Democratic,35
+7,43,Phil Hardberger,Mayor,7/7/05,6/1/09,White,Male,Democratic,71
+7,43,Edward D. Garza,Mayor,7/1/01,7/7/05,Hispanic,Male,Democratic,32
+7,43,Howard W. Peak,Mayor,6/1/97,7/1/01,White,Male,Republican,49
+7,43,Bill Thornton,Mayor,6/1/95,6/1/97,White,Male,None,51
+7,43,Nelson Wolff,Mayor,6/1/91,6/1/95,White,Male,Democratic,51
+7,43,Lila Cockrell,Mayor,6/1/89,6/1/91,White,Female,Democratic,67
+7,43,Henry Cisneros,Mayor,5/1/81,6/1/89,Hispanic,Male,Democratic,34
+7,43,Lila Cockrell,Mayor,5/1/75,5/1/81,White,Female,Democratic,53
+7,43,Charles Becker,Mayor,5/1/73,5/1/75,White,Male,Republican,53
+7,43,John Gatti,Mayor,5/1/71,5/1/73,White,Male,Republican,31
+7,43,Walter W. McAllister,Mayor,5/1/61,5/1/71,White,Male,None,72
+8,5,Kevin Faulconer,Mayor,3/3/14,,White,Male,Republican,47
+8,5,Todd Gloria,Mayor,8/30/13,3/3/14,Two or More Races,Male,Democratic,35
+8,5,Bob Filner,Mayor,12/3/12,8/30/13,White,Male,Democratic,70
+8,5,Jerry Sanders,Mayor,12/5/05,12/3/12,White,Male,Republican,55
+8,5,Toni Atkins,Mayor,7/18/05,12/5/05,White,Female,Democratic,43
+8,5,Michael Zucchet,Mayor,7/15/05,7/18/05,White,Male,Democratic,36
+8,5,Dick Murphy,Mayor,12/4/00,7/15/05,White,Male,Republican,58
+8,5,Susan Golding,Mayor,12/7/92,12/4/00,White,Female,Republican,47
+8,5,Maureen O'Connor,Mayor,6/3/86,12/7/92,White,Female,Democratic,40
+8,5,Ed Struiksma,Mayor,12/5/85,6/3/86,White,Male,Republican,39
+8,5,Roger Hedgecock,Mayor,5/3/83,12/5/85,White,Male,Republican,37
+8,5,Bill Cleator,Mayor,1/3/83,5/3/83,White,Male,Republican,56
+8,5,Pete Wilson,Mayor,12/6/71,1/3/83,White,Male,Republican,38
+8,5,Frank Curran,Mayor,12/2/63,12/6/71,White,Male,Democratic,51
+9,43,Eric Johnson,Mayor,6/17/19,,African American,Male,Democratic,44
+9,43,Mike Rawlings,Mayor,6/27/11,6/17/19,White,Male,Democratic,57
+9,43,Dwaine Caraway,Mayor,2/26/11,6/27/11,African American,Male,Democratic,59
+9,43,Tom Leppert,Mayor,6/25/07,2/25/11,White,Male,Republican,53
+9,43,Laura Miller,Mayor,2/20/02,6/25/07,White,Female,Democratic,44
+9,43,Ron Kirk,Mayor,6/5/95,2/20/02,African American,Male,Democratic,41
+9,43,Steve Bartlett,Mayor,2/16/91,6/5/95,White,Male,Republican,44
+9,43,Annette Strauss,Mayor,2/16/87,2/16/91,White,Female,None,63
+9,43,Starke Taylor,Mayor,2/16/83,2/16/87,White,Male,Republican,61
+9,43,Jack Wilson Evans,Mayor,4/1/81,2/16/83,White,Male,Republican,59
+9,43,Robert Folsom,Mayor,3/1/76,4/1/81,White,Male,None,49
+9,43,Adlene Harrison,Mayor,1/1/76,3/1/76,White,Female,Democratic,52
+9,43,Wes Wise,Mayor,1/1/71,1/1/76,White,Male,None,42
+9,43,J. Erik Jonsson,Mayor,1/1/64,1/1/71,White,Male,None,63
+10,5,Sam Liccardo,Mayor,1/1/15,,Hispanic,Male,Democratic,45
+10,5,Chuck Reed,Mayor,1/9/07,1/1/15,White,Male,Democratic,59
+10,5,Ron Gonzales,Mayor,1/1/99,1/9/07,Hispanic,Male,Democratic,48
+10,5,Susan Hammer,Mayor,1/9/91,1/1/99,White,Female,Democratic,53
+10,5,Tom McEnery,Mayor,1/9/83,1/9/91,White,Male,Democratic,38
+10,5,Janet Gray Hayes,Mayor,1/9/75,1/9/83,White,Female,Democratic,49
+10,5,Norman Mineta,Mayor,1/9/71,1/9/75,Asian,Male,Democratic,40
+10,5,Ron James,Mayor,1/2/67,1/9/71,White,Male,Democratic,39
+11,43,Steve Adler,Mayor,1/6/15,,White,Male,Democratic,59
+11,43,Lee Leffingwell,Mayor,6/22/09,1/6/15,White,Male,Democratic,70
+11,43,Will Wynn,Mayor,6/16/03,6/22/09,White,Male,Democratic,42
+11,43,Gustavo L. Garcia,Mayor,11/9/01,6/16/03,Hispanic,Male,Democratic,67
+11,43,Kirk Watson,Mayor,5/10/97,11/9/01,White,Male,Democratic,39
+11,43,Bruce Todd,Mayor,6/15/91,5/10/97,White,Male,Republican,42
+11,43,Lee Cooke,Mayor,6/15/88,6/15/91,White,Male,Republican,44
+11,43,Frank C. Cooksey,Mayor,6/1/85,6/15/88,White,Male,None,52
+11,43,Ron Mullen,Mayor,6/3/83,6/1/85,White,Male,None,44
+11,43,John Treviño Jr.,Mayor,2/3/83,6/3/83,Hispanic,Male,None,44
+11,43,Carole Keeton Strayhorn,Mayor,3/2/77,2/3/83,White,Female,Democratic,38
+11,43,Jeffrey Friedman,Mayor,5/16/75,3/2/77,White,Male,Democratic,30
+11,43,Roy Butler,Mayor,4/1/71,5/16/75,White,Male,Rebulican,45
+11,43,Travis LaRue,Mayor,8/24/69,4/1/71,White,Male,None,56
+12,9,Lenny Curry,Mayor,7/1/15,,White,Male,Rebulican,45
+12,9,Alvin Brown,Mayor,7/1/11,7/1/15,African American,Male,Democratic,49
+12,9,John Peyton,Mayor,7/1/03,7/1/11,White,Male,Rebulican,39
+12,9,John Delaney,Mayor,7/1/95,7/1/03,White,Male,Rebulican,39
+12,9,Ed Austin,Mayor,7/1/91,7/1/95,White,Male,Rebulican,65
+12,9,Tommy Hazouri,Mayor,7/1/87,7/1/91,Two or More Races,Male,Democratic,43
+12,9,Jake Godbold,Mayor,1/2/79,7/1/87,White,Male,Democratic,46
+12,9,Hans Tanzler,Mayor,6/5/67,1/2/79,White,Male,Democratic,40
+13,43,Betsy Price,Mayor,7/12/11,,White,Female,Rebulican,62
+13,43,Mike Moncrief,Mayor,5/20/03,7/12/11,White,Male,Democratic,-1
+13,43,Kenneth Barr,Mayor,5/21/96,5/20/03,White,Male,Democratic,-1
+13,43,Jewel Woods,Mayor,12/20/95,5/21/96,White,Female,None,69
+13,43,Kay Granger,Mayor,5/21/91,12/20/95,White,Female,Rebulican,48
+13,43,Bob Bolen,Mayor,2/2/82,5/21/91,White,Male,Rebulican,56
+13,43,Richard Newkirk,Mayor,11/11/81,2/2/82,White,Male,Rebulican,68
+13,43,Woodie Woods,Mayor,5/1/79,11/11/81,White,Male,Rebulican,59
+13,43,Hugh Parmer,Mayor,4/5/77,5/1/79,White,Male,Democratic,38
+13,43,Clif Overcash,Mayor,4/14/75,4/5/77,White,Male,None,-1
+13,43,"R.M. ""Sharkey"" Stovall",Mayor,4/6/69,4/14/75,White,Male,None,50
+14,35,Andrew Ginther,Mayor,1/1/16,,White,Male,Democratic,41
+14,35,Michael B. Coleman,Mayor,1/1/00,1/1/16,African American,Male,Democratic,46
+14,35,Greg Lashutka,Mayor,1/1/92,1/1/00,White,Male,Rebulican,48
+14,35,Buck Rinehart,Mayor,1/1/84,1/1/92,White,Male,Rebulican,38
+14,35,Tom Moody,Mayor,1/1/72,1/1/84,White,Male,Rebulican,43
+14,35,Jack Sensenbrenner,Mayor,1/1/64,1/1/72,White,Male,Democratic,62
+15,33,Vi Lyles,Mayor,12/4/17,,African American,Female,Democratic,65
+15,33,Jennifer Roberts,Mayor,12/7/15,12/4/17,White,Female,Democratic,55
+15,33,Dan Clodfelter,Mayor,4/9/14,12/7/15,White,Male,Democratic,64
+15,33,Patrick Cannon,Mayor,12/2/13,4/9/14,African American,Male,Democratic,47
+15,33,Patsy Kinsey,Mayor,7/1/13,12/2/13,White,Female,Democratic,72
+15,33,Anthony Foxx,Mayor,12/7/09,7/1/13,African American,Male,Democratic,42
+15,33,Pat McCrory,Mayor,12/7/95,12/7/09,White,Male,Rebulican,39
+15,33,Richard Vinroot,Mayor,6/1/91,12/7/95,White,Male,Rebulican,50
+15,33,Sue Myrick,Mayor,2/2/87,6/1/91,White,Female,Rebulican,46
+15,33,Harvey Gantt,Mayor,5/12/83,2/2/87,African American,Male,Democratic,40
+15,33,H. Edward Knox,Mayor,1/4/79,5/12/83,White,Male,Democratic,42
+15,33,Kenneth R. Harris,Mayor,5/7/77,1/4/79,White,Male,Rebulican,42
+15,33,John M. Belk,Mayor,8/23/69,5/7/77,White,Male,Democratic,49
+16,5,Joseph Alioto,Mayor,1/8/68,1/7/76,White,Male,Democratic,52
+16,5,George Mosscome,Mayor,1/8/76,11/27/78,White,Male,Democratic,47
+16,5,Dianne Goldman Berman Feinstein,Mayor,11/27/78,1/7/88,White,Female,Democratic,45
+16,5,Arthur Chris Agnos,Mayor,1/8/88,1/7/92,White,Male,Democratic,50
+16,5,Frank Jordan,Mayor,1/8/92,1/7/96,White,Male,Democratic,57
+16,5,Willie Brown,Mayor,1/8/96,1/7/04,African American,Male,Democratic,52
+16,5,Gavin Christopher Newsom,Mayor,1/8/04,1/10/11,White,Male,Democratic,37
+16,5,Ed Lee,Mayor,1/10/11,12/12/17,Asian,Male,Democratic,59
+16,5,Mark Farrell,Mayor,12/12/17,7/11/18,White,Male,Democratic,44
+16,5,London Breed,Mayor,7/11/18,,African American,Female,Democratic,44
+17,14,Richard Green  Lugar,Mayor,1/1/68,1/1/76,White,Male,Republivan,36
+17,14,William Herbert Hudnut,Mayor,1/1/76,1/1/92,White,Male,Republivan,44
+17,14,Stephen Goldsmith,Mayor,1/1/92,1/1/00,White,Male,Republivan,46
+17,14,Bart Peterson,Mayor,1/1/00,1/1/08,White,Male,Democratic,42
+17,14,Greg  Ballard,Mayor,1/1/08,1/1/16,White,Male,Republivan,54
+17,14,Joe Hogsett,Mayor,1/1/16,,White,Male,Democratic,60
+18,47,Wesley C. Uhiman,Mayor,1/1/70,1/1/78,White,Male,Democratic,34
+18,47,Charles Royer,Mayor,1/1/78,1/1/90,White,Male,independent,39
+18,47,Norman B. Rice,Mayor,1/1/90,1/1/98,African American,Male,Democratic,47
+18,47,Paul Schell,Mayor,1/1/98,1/1/02,White,Male,Democratic,61
+18,47,Gregory J. Nickels,Mayor,1/1/02,1/1/10,White,Male,Democratic,47
+18,47,Michael McGinn,Mayor,1/1/10,1/1/14,White,Male,Democratic,51
+18,47,Ed Murray,Mayor,1/1/14,9/13/17,White,Male,Democratic,59
+18,47,Bruce Harrell,Mayor,9/13/17,9/18/17,Two or More Races,Male,None,59
+18,47,Tim Burgess,Mayor,9/18/17,11/28/17,White,Male,Democratic,68
+18,47,Jenny Durkan,Mayor,11/28/17,,White,Female,Democratic,59
+19,6,William H. McNichols Jr.,Mayor,12/1/68,7/1/83,White,Male,Independent,58
+19,6,Federico Pena,Mayor,7/2/83,7/15/91,Hispanic,Male,Democratic,36
+19,6,Wellington Webb,Mayor,7/15/91,7/21/03,African American,Male,Democratic,50
+19,6,John Wright Hickenlooper,Mayor,7/21/03,1/11/11,White,Male,Democratic,51
+19,6,Bill Vidal,Mayor,1/12/11,7/18/11,Hispanic,Male,Democratic,60
+19,6,Michael Hancook,Mayor,7/18/11,,African American,Male,Democratic,42
+20,21,Marty Joseph Walsh,Mayor,1/6/14,,White,Male,Democratic,39
+20,21,Thomas Michael Menino,Mayor,7/12/93,1/6/14,White,Male,Democratic,47
+20,21,Raymond Leo Flynn,Mayor,1/2/84,1/1/68,White,Male,Democratic,51
+20,21,Kevin Hagan White,Mayor,1/1/68,1/2/84,White,Male,Democratic,44
