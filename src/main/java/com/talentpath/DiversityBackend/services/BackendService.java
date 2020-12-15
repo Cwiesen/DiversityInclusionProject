@@ -23,9 +23,9 @@ public class BackendService {
 
     public List<Integer> readFile() {
         List<String> fileRows = new ArrayList<>();
-        int rowSize = 10;
+        int rowSize = 11;
         try {
-            File fileData = new File("Governors.csv");
+            File fileData = new File("Mayors.csv");
             Scanner myReader = new Scanner(fileData);
             while (myReader.hasNextLine()) {
                 fileRows.add(myReader.nextLine());
@@ -43,7 +43,7 @@ public class BackendService {
             if (currentLine.length < rowSize) {
                 System.out.println("Bad index");
             }
-            addedIds.add(dao.addPerson(buildGovernor(currentLine)));
+            addedIds.add(dao.addPerson(buildMayor(currentLine)));
         }
         return addedIds;
     }
@@ -75,16 +75,17 @@ public class BackendService {
 
         newPerson.setStateName(state);
         newPerson.setCityName(city);
-        newPerson.setName(toAdd[2]);
-        newPerson.setAge(Integer.parseInt(toAdd[8]));
-        newPerson.setGender(toAdd[6]);
-        newPerson.setEthnicity(toAdd[5]);
-        newPerson.setParty(toAdd[7]);
+        newPerson.setPersonId(Integer.parseInt(toAdd[2]));
+        newPerson.setName(toAdd[3]);
+        newPerson.setAge(Integer.parseInt(toAdd[10]));
+        newPerson.setGender(toAdd[8]);
+        newPerson.setEthnicity(toAdd[7]);
+        newPerson.setParty(toAdd[9]);
         newPerson.setPosition("Mayor");
-        newPerson.setStartYear(convertDate(toAdd[1]));
-        newPerson.setEndYear(-1);
-        if (!toAdd[2].isEmpty()) {
-            newPerson.setEndYear(convertDate(toAdd[2]));
+        newPerson.setStartYear(convertDate(toAdd[5]));
+        newPerson.setEndYear(2021);
+        if (!toAdd[6].isEmpty()) {
+            newPerson.setEndYear(convertDate(toAdd[6]));
         }
         return newPerson;
     }
