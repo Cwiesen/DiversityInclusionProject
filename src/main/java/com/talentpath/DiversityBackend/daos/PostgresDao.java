@@ -26,8 +26,8 @@ public class PostgresDao implements BackendDao {
                 "\tVALUES ('"+person.getStateName()+"', '"+person.getCityName()+"', " +
                 "'"+person.getAge()+"', '"+person.getGender()+"', '"+person.getEthnicity()+"" +
                 "', '"+person.getParty()+"', '"+person.getPosition()+"" +
-                "', '"+person.getStartYear()+"', '"+person.getEndYear()+"" +
-                "') " + "returning \"id\";",new IdMapper());
+                "', "+person.getStartYear()+", "+person.getEndYear()+"" +
+                ") " + "returning \"id\";",new IdMapper());
         return idList.get(0);
     }
 

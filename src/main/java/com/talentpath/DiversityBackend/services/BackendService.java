@@ -23,6 +23,7 @@ public class BackendService {
 
     public List<Integer> readFile() {
         List<String> fileRows = new ArrayList<>();
+        int rowSize = 8;
         try {
             File fileData = new File("Governors.csv");
             Scanner myReader = new Scanner(fileData);
@@ -39,7 +40,7 @@ public class BackendService {
             String line = fileRows.get(i);
             line.replace("\"", "");
             String[] currentLine = line.split(",");
-            if (currentLine.length < 8) {
+            if (currentLine.length < rowSize) {
                 System.out.println("Bad index");
             }
             addedIds.add(dao.addPerson(buildGovernor(currentLine)));
@@ -58,7 +59,7 @@ public class BackendService {
         newPerson.setParty(toAdd[7]);
         newPerson.setPosition("Governor");
         newPerson.setStartYear(convertDate(toAdd[1]));
-        newPerson.setEndYear(null);
+        newPerson.setEndYear(-1);
         if (!toAdd[2].isEmpty()) {
             newPerson.setEndYear(convertDate(toAdd[2]));
         }
