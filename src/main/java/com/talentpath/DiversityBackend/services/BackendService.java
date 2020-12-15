@@ -21,7 +21,7 @@ public class BackendService {
         this.dao = dao;
     }
 
-    public void readFile() {
+    public List<Integer> readFile() {
         List<String> fileRows = new ArrayList<>();
         try {
             File fileData = new File("Governors.csv");
@@ -34,6 +34,7 @@ public class BackendService {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
+        List<Integer> addedIds = new ArrayList<>();
         for (int i = 1; i < fileRows.size(); i++) {
             String line = fileRows.get(i);
             line.replace("\"", "");
@@ -41,8 +42,9 @@ public class BackendService {
             if (currentLine.length < 8) {
                 System.out.println("Bad index");
             }
-            dao.addPerson(buildGovernor(currentLine));
+            addedIds.add(dao.addPerson(buildGovernor(currentLine)));
         }
+        return addedIds;
     }
 
     public Person buildGovernor(String[] toAdd) {

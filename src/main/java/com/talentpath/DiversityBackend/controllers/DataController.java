@@ -23,13 +23,13 @@ public class DataController {
     @GetMapping("/people")
     public List<Person> getPeople() {
 
-        return  service.getAllPeople();
+        return service.getAllPeople();
 
     }
 
     @GetMapping("/readFile")
-    public void readFile() {
-        service.readFile();
+    public List<Integer> readFile() {
+        return service.readFile();
     }
 
     @PostMapping("/addPersonTest")
