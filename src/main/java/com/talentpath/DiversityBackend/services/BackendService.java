@@ -584,4 +584,8 @@ public class BackendService {
     public List<Demographic> getDemographics() {
         return dao.getAllDemographics();
     }
+
+    public List<Person> getbyRole(String position) {
+        return dao.getPeopleByRole(position);
+    }
 }
