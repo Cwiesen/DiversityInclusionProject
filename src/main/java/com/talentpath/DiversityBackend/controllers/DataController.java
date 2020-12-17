@@ -32,6 +32,11 @@ public class DataController {
         return service.readFile();
     }
 
+    @GetMapping("/readCongress")
+    public List<Integer> readCongress() {
+        return service.readCongress();
+    }
+
     @PostMapping("/addPersonTest")
     public Integer addPerson() {
         service.addPerson();
