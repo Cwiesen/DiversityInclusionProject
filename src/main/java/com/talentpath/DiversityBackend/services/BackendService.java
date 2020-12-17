@@ -1,6 +1,7 @@
 package com.talentpath.DiversityBackend.services;
 
 import com.talentpath.DiversityBackend.daos.BackendDao;
+import com.talentpath.DiversityBackend.models.Demographic;
 import com.talentpath.DiversityBackend.models.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -578,5 +579,9 @@ public class BackendService {
                 break;
         }
         return city;
+    }
+
+    public List<Demographic> getDemographics() {
+        return dao.getAllDemographics();
     }
 }

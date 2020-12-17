@@ -1,5 +1,6 @@
 package com.talentpath.DiversityBackend.controllers;
 
+import com.talentpath.DiversityBackend.models.Demographic;
 import com.talentpath.DiversityBackend.models.Person;
 import com.talentpath.DiversityBackend.services.BackendService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,11 @@ public class DataController {
     public Integer beginGame() {
 
         return 1;
+    }
+
+    @GetMapping("/demographics")
+    public List<Demographic> getDemographics() {
+        return service.getDemographics();
     }
 
     @GetMapping("/people")
