@@ -21,6 +21,11 @@ public class DataController {
         return 1;
     }
 
+    @GetMapping("/role/{position}")
+    public List<Person> getGame(@PathVariable String position) {
+       return service.getbyRole(position);
+    }
+
     @GetMapping("/demographics")
     public List<Demographic> getDemographics() {
         return service.getDemographics();
