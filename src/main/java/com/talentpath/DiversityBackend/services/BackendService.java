@@ -26,7 +26,7 @@ public class BackendService {
         List<String> fileRows = new ArrayList<>();
         int rowSize = 10;
         try {
-            File fileData = new File("Governor.csv");
+            File fileData = new File("Governors.csv");
             Scanner myReader = new Scanner(fileData);
             while (myReader.hasNextLine()) {
                 fileRows.add(myReader.nextLine());
@@ -49,8 +49,7 @@ public class BackendService {
         return addedIds;
     }
 
-    //todo: Change to readMayor
-    public List<Integer> readFile() {
+    public List<Integer> readMayor() {
         List<String> fileRows = new ArrayList<>();
         int rowSize = 11;
         try {
@@ -193,7 +192,7 @@ public class BackendService {
                     && conTermInfo[startColumn + (5 * term) + 4].equals(currentParty)
                     && convertState(conTermInfo[startColumn + (5 * term) + 3]).equals(currentState)) {
                 if (currentState == "") {
-                    continue;
+                    break;
                 }
                 if (convertDate(conTermInfo[startColumn + (5 * term) + 1]) < earliestStart) {
                     earliestStart = convertDate(conTermInfo[startColumn + (5 * term) + 1]);
@@ -203,14 +202,14 @@ public class BackendService {
                 }
 
                 if (term == 29 || (6 + (5 * term) + 4) == conTermInfo.length - 1) {
-                    Integer age = calculateAge(conTermInfo[4], latestEnd);
+                    Integer age = calculateAge(conTermInfo[4], earliestStart);
                     buildPersonCongress(personId, currentState, name, age, gender, ethnicity, currentParty, currentType,
                             earliestStart, latestEnd, houseToAdd, senateToAdd);
                 }
 
             } else {
                 //Add current person and create new person
-                Integer age = calculateAge(conTermInfo[4], latestEnd);
+                Integer age = calculateAge(conTermInfo[4], earliestStart);
                 buildPersonCongress(personId, currentState, name, age, gender, ethnicity, currentParty, currentType,
                         earliestStart, latestEnd, houseToAdd, senateToAdd);
                 currentType = conTermInfo[startColumn + (5 * term)];
@@ -220,7 +219,7 @@ public class BackendService {
                 currentParty = conTermInfo[startColumn + (5 * term) + 4];
                 //Add the new person if this is the last term
                 if (term == 29 || (6 + (5 * term) + 4) == conTermInfo.length - 1) {
-                    age = calculateAge(conTermInfo[4], latestEnd);
+                    age = calculateAge(conTermInfo[4], earliestStart);
                     buildPersonCongress(personId, currentState, name, age, gender, ethnicity, currentParty, currentType,
                             earliestStart, latestEnd, houseToAdd, senateToAdd);
                 }

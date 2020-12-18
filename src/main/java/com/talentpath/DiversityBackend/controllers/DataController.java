@@ -33,9 +33,14 @@ public class DataController {
 
     }
 
-    @GetMapping("/readFile")
-    public List<Integer> readFile() {
-        return service.readFile();
+    @GetMapping("/readMayor")
+    public List<Integer> readMayor() {
+        return service.readMayor();
+    }
+
+    @GetMapping("/readGovernor")
+    public List<Integer> readGovernor() {
+        return service.readGovernor();
     }
 
     @GetMapping("/readCongress")
