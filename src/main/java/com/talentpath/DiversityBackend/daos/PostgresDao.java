@@ -120,6 +120,7 @@ public class PostgresDao implements BackendDao {
         @Override
         public Person mapRow(ResultSet resultSet, int i) throws SQLException {
             Person toReturn = new Person();
+            toReturn.setName(resultSet.getString("name"));
             toReturn.setPersonId(resultSet.getInt("id"));
             toReturn.setAge(resultSet.getInt("age"));
             toReturn.setCityName(resultSet.getString("city"));
