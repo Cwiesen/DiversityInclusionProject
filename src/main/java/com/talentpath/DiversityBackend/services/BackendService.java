@@ -132,12 +132,13 @@ public class BackendService {
     public Person buildGovernor(String[] toAdd) {
         Person newPerson = new Person();
         String state = convertState(toAdd[0]);
+        String gender = convertGender(toAdd[7]);
 
         newPerson.setPersonId(Integer.parseInt(toAdd[3]));
         newPerson.setStateName(state);
         newPerson.setName(toAdd[4]);
         newPerson.setAge(Integer.parseInt(toAdd[9]));
-        newPerson.setGender(toAdd[7]);
+        newPerson.setGender(gender);
         newPerson.setEthnicity(toAdd[6]);
         newPerson.setParty(toAdd[8]);
         newPerson.setPosition("Governor");
@@ -153,13 +154,14 @@ public class BackendService {
         Person newPerson = new Person();
         String state = convertState(toAdd[1]);
         String city = convertCity(toAdd[0]);
+        String gender = convertGender(toAdd[8]);
 
         newPerson.setStateName(state);
         newPerson.setCityName(city);
         newPerson.setPersonId(Integer.parseInt(toAdd[2]));
         newPerson.setName(toAdd[3]);
         newPerson.setAge(Integer.parseInt(toAdd[10]));
-        newPerson.setGender(toAdd[8]);
+        newPerson.setGender(gender);
         newPerson.setEthnicity(toAdd[7]);
         newPerson.setParty(toAdd[9]);
         newPerson.setPosition("Mayor");
@@ -174,7 +176,7 @@ public class BackendService {
     public void buildCongress(String[] conTermInfo, String[] conEthInfo, List<Person> houseToAdd, List<Person> senateToAdd) {
         //Immutable info
         String name = convertName(conTermInfo[0], conTermInfo[1], conTermInfo[2], conTermInfo[3]);
-        String gender = conTermInfo[5];
+        String gender = convertGender(conTermInfo[5]);
         String ethnicity = conEthInfo[4];
         Integer personId = Integer.parseInt(conEthInfo[5]);
 
@@ -274,6 +276,19 @@ public class BackendService {
             name += " " + suffix;
         }
         return name;
+    }
+
+    private String convertGender(String smallG) {
+        String gender = smallG;
+        switch(gender) {
+            case "M":
+                gender = "Male";
+                break;
+            case "F":
+                gender = "Female";
+                break;
+        }
+        return gender;
     }
 
     private Integer convertDate(String stringDate) {
