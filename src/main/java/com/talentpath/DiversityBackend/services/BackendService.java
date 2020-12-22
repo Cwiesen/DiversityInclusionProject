@@ -230,7 +230,7 @@ public class BackendService {
     }
 
     public void addPerson() {
-        Person toAdd = new Person(1000, "California", "Houston", "Test Person", 22, "Male", "White", "Republican", "Senator", 1950, 1960);
+        Person toAdd = new Person(1, "California", "Houston", "Test Person", 22, "Male", "White", "Republican", "Senator", 1950, 1960, 1000);
         dao.addPerson(toAdd);
     }
 
