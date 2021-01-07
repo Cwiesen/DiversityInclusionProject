@@ -51,26 +51,26 @@ public class PostgresDao implements BackendDao {
 
     @Override
     public List<Person> getAllPeople() {
-        return template.query("select * from \"Persons\";", new PersonMapper());
+        return template.query("select * from \"Persons\" order by \"personId\";", new PersonMapper());
     }
 
     @Override
     public List<Demographic> getAllDemographics() {
-        return template.query("select * from \"Demographics\";", new DemographicMapper());
+        return template.query("select * from \"Demographics\" order by \"personId\";", new DemographicMapper());
     }
 
     @Override
     public List<Person> getPeopleByYear(Integer year) {
         return template.query("Select * from \"Persons\"\n" +
                 "\n" +
-                "Where "+ year +" BETWEEN \"startYear\" AND \"endYear\";",new PersonMapper());
+                "Where "+ year +" BETWEEN \"startYear\" AND \"endYear\" order by \"personId\";", new PersonMapper());
     }
 
     @Override
     public List<Person> getPeopleByRole(String role) {
         return template.query("Select * from \"Persons\"\n" +
                 "\n" +
-                "Where \"position\" = '"+role+"';",new PersonMapper());
+                "Where \"position\" = '"+role+"' order by \"personId\";",new PersonMapper());
     }
 
     @Override
@@ -81,7 +81,7 @@ public class PostgresDao implements BackendDao {
                 "\n" +
                 "AND\n" +
                 "\n" +
-                "\"position\" = '"+role+"';",new PersonMapper());
+                "\"position\" = '"+role+"' order by \"personId\";",new PersonMapper());
     }
 
     @Override
