@@ -63,14 +63,14 @@ public class PostgresDao implements BackendDao {
     public List<Person> getPeopleByYear(Integer year) {
         return template.query("Select * from \"Persons\"\n" +
                 "\n" +
-                "Where "+ year +" BETWEEN \"startYear\" AND \"endYear\" order by \"personId\" asc;", new PersonMapper());
+                "Where "+ year +" BETWEEN \"startYear\" AND \"endYear\" order by \"personId\", \"age\" asc;", new PersonMapper());
     }
 
     @Override
     public List<Person> getPeopleByRole(String role) {
         return template.query("Select * from \"Persons\"\n" +
                 "\n" +
-                "Where \"position\" = '"+role+"' order by \"personId\" asc;",new PersonMapper());
+                "Where \"position\" = '"+role+"' order by \"personId\", \"age\" asc;",new PersonMapper());
     }
 
     @Override
@@ -81,7 +81,7 @@ public class PostgresDao implements BackendDao {
                 "\n" +
                 "AND\n" +
                 "\n" +
-                "\"position\" = '"+role+"' order by \"personId\" asc;",new PersonMapper());
+                "\"position\" = '"+role+"' order by \"personId\", \"age\" asc;",new PersonMapper());
     }
 
     @Override
